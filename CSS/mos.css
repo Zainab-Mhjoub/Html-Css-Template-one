@@ -156,10 +156,10 @@ body {
     height: calc(100vh - 64px);
     position: relative;
 }
-@media (max-width: 767px){
-.landing {
-    background-image: url(../Images/background-smallScreen.PNG);
-    background-size: cover;
+@media(min-width: 767px){
+    .landing {
+        background-image: url(../Images/background-smallScreen.PNG);
+        background-size: cover;
     }
 }
 .landing .intro-text{
